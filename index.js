@@ -1,0 +1,1 @@
+// Initiating git repo with index.js file

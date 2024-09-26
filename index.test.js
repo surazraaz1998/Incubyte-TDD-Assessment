@@ -19,3 +19,7 @@ test('should handle an unknown amount of numbers', () => {
 test('should handle new lines as well as commas between numbers', () => {
     expect(add("1\n2,3")).toBe(6);
   });
+
+test('should support custom delimiters', () => {
+    expect(add("//;\n1;2")).toBe(3);
+  });

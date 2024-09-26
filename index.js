@@ -15,3 +15,4 @@ function add(numbers){
    }
     return numbersArray.reduce((sum,num)=>sum+num,0);
 }  
+module.exports = add;

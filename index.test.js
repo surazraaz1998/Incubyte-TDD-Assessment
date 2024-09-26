@@ -11,3 +11,7 @@ test('should return the number itself if only one number is provided', () => {
 test('should return the sum of two comma-separated numbers', () => {
     expect(add("1,2")).toBe(3);
   });
+
+test('should handle an unknown amount of numbers', () => {
+    expect(add("1,2,3,4,5")).toBe(15);
+  });
